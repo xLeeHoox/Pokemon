@@ -1,0 +1,5051 @@
+fileFormatVersion: 2
+guid: 979f8ab7fe854cb4f8298df1ee7db0ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c149e72190ae0234d8cd6eb4d497936d
+      internalID: -506959759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a63757bd42d6145a439b8355b25d7b
+      internalID: 1807455578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a827df2bb333de4a969fc33c6264ee9
+      internalID: -580414716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_3
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf7f325f09b1c74599796b32df1dd01
+      internalID: -839493512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4915509cd668404fb4ec8633f008a6c
+      internalID: 1167997846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_5
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e56a0f9fa478d48b62ff22b32a64be
+      internalID: 1897972619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_6
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a96a5306460204182aa54dfebc0fde
+      internalID: -610626709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_7
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e760d79aa6ad44797b82bedf6d0e33
+      internalID: -1099616015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_8
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3573e8e025543341a9360a524038f69
+      internalID: -1771219960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_9
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0ae9521dcb3b049b8bb7eeab0dfadd
+      internalID: 1103411151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_10
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8efa71fa645437449e6bdc44f2e43c8
+      internalID: 502600773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_11
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913e990059caf8545a9e150cb3e224b2
+      internalID: 970380938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_12
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0503fee5dde6b47a2123b7dd490999
+      internalID: -769268298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_13
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 3920.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522900680210cda42b3273bc8fddc022
+      internalID: 1263468555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a050bdcde6a02b3408eeebe19d8cb5c0
+      internalID: -127052395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9badc1117788fad45932158d4c3c55f6
+      internalID: 370054071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_16
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083bb0d6e626e9d40adc9d96380eb7fd
+      internalID: -1491955779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_17
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6608dee599375114a9f1e1c4a887772e
+      internalID: 1769702423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_18
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb168cb51f95c549a6df1c3c33b3af1
+      internalID: 1343690997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_19
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91494ed67c0d04ea1aa33e345d783e
+      internalID: -30847960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_20
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a21cf95d8a2de4d91a7b40586cdd65
+      internalID: -1661127616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_21
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979ecf413ec87be488e367324f439937
+      internalID: -1853226054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_22
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b2483429c2c749b9008365fcf9cc1
+      internalID: 1198972766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_23
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ae4f4f63e3d34385cb277efabe96b
+      internalID: -573120065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_24
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689bf7d96b66eb4ca48063b17b9759b
+      internalID: 1500299267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_25
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d61c588aa8f541a3be399f08b40b8
+      internalID: 897544764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_26
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec37ebc72be3584993720c2ce4fcdb0
+      internalID: -43913435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_27
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 3660.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310709f3310b1245aab9181523c2106
+      internalID: 425925247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fce900de200a44ab661805ab005eb1
+      internalID: -529273146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce868480348324f8fe32d876e256a7
+      internalID: -251942195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_30
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d06c8a6ef9e98045a1bca6343b861a3
+      internalID: -145144518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_31
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a016a7ea4535249ae639f1898bc990
+      internalID: -1963536529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_32
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9b7cae648723e4ab11cf14030b0651
+      internalID: 1764663799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_33
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed59d6470563a4408a121063292d98d
+      internalID: -654228673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_34
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531e753729f3d084d9ed11340bac0973
+      internalID: 1570082594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_35
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a2043e921f9014b89ced452a4c0acb
+      internalID: -939472249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_36
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ccc9bde954c9948a8595e4e0645ca9
+      internalID: 638636755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_37
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88306ac2159cc22418ab6772a97c199f
+      internalID: -954238834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_38
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1477e2a773d144a8747f0f44b4cb1
+      internalID: 2054400138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_39
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9797949083e83a46a345129381f103a
+      internalID: 267341554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_40
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4684b858cffadf45a84b357f38e54f2
+      internalID: 2102336536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_41
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 3400.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e96f1d7ba89c4eb8f1eb3322c815f
+      internalID: -870958745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b568851f48a52643be53538ecd4cbd0
+      internalID: -1461449451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_43
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274208665efe78458945b1e6d79bf9b
+      internalID: -64061647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_44
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194690e4cbac5444d9a98f8c31f234ca
+      internalID: 1731349795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_45
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d928cb6047f4d845a014b3679df6ab2
+      internalID: -1201708634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_46
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36bcb4a5ad05044abd7f1a0eace255b
+      internalID: 1986582928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_47
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ac7e53955ce894d940921d8ef47886
+      internalID: -1421642254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_48
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00151969494c70946843ddacde40dc78
+      internalID: 1678986743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_49
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c14dd4b1523624e965127b39d0d90f
+      internalID: 1219175617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_50
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d424d9bc4838ca49a9ff70d9261d679
+      internalID: 1990083826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_51
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083c7ad26963813408412ab8a0ee4df4
+      internalID: -974428148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_52
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08a4d0bba2a77640be14177cf45b80b
+      internalID: -317940835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_53
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba4f0e2f1490a4f9634d65adbf71a1
+      internalID: 1840880394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_54
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33d918d53cba4b4da9fc8235c178888
+      internalID: -508577413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_55
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 3140.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06897645c46edf34c98ab15e2ad93849
+      internalID: 1452341250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_56
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c636b845651d964b8eba6dd10d28000
+      internalID: -2022312440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_57
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799dd016ec6512f4d9bafb221e1aabc4
+      internalID: 898567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_58
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28b8444fd0abd44ade5571f8f67200
+      internalID: -350549127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_59
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012df80d4238a6d4687c4e2979c2e0dd
+      internalID: 1349907181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_60
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c9b9bb94937424a9ed7d87cee75cc3
+      internalID: 1490258992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_61
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301f7fbb93a2bad4cb4a6ebcbf8c5929
+      internalID: -683071351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_62
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256c709998f6a0842b5940b63c2cb502
+      internalID: -959414606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_63
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca66b39cb92b09445b2af7821ae401b7
+      internalID: -94738985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_64
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bb0fd8160facc43894440f77c069a0
+      internalID: -1495921125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_65
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cff35b92149524787448be187674b3
+      internalID: -1890889736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_66
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f63bf6140c3b247afd16d489ad7190
+      internalID: -1986418822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_67
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451d58075fbe54409801085cf76ec46
+      internalID: 363882391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_68
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ff94f776732f74c907f643c1dbf48d
+      internalID: 986605375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_69
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2880.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6f728ca88f55243b881c9bcd9cac7a
+      internalID: 1436817690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae9b0e4f15e5446a68f7789a6bd264
+      internalID: -1563936901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_71
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a1d9234c2b08046b1d08e273e58417
+      internalID: -1788955351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_72
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e7a00639c72b541b5c7126d1c5fbd5
+      internalID: 266266928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_73
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076eed547998ada409053bf5c5ea3d26
+      internalID: 1120601139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_74
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09da96ae0f69223479f3861439b87b4a
+      internalID: 654984024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_75
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725871a9e2ae734ba76b7d455cb637a
+      internalID: 2012732401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_76
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091b923d40fcdba4dbafe22efe631385
+      internalID: 1574608842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_77
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc352c4dd5ef8d468f7fab41c05aa51
+      internalID: -72090123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_78
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247f6aa8edff44345a8226d4ea1326e6
+      internalID: 905121267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_79
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3609c78ccb2bd2b49b50e70f883553c7
+      internalID: -342723194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_80
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77733377f4cc710489e8dca2f2704418
+      internalID: 323826771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_81
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985fe7805e122d443a68a523b32dfabd
+      internalID: 1523235820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_82
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07e51f2a1cdbf4dac31345086845d2
+      internalID: -246729507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_83
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2620.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4998d32a0358c48ab6ef9b89e73520
+      internalID: -1830181048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69faa30b4b7b5184490f4c390c34a449
+      internalID: 1179463934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_85
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a281fc5fcf7844a869be03b1d9e81d
+      internalID: 1148713570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_86
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c088a3073ba17468dbdbc42707c9ba
+      internalID: -1445366193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_87
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922676603de6f384c80e40041a1ae83a
+      internalID: -898076741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_88
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4605516a44a9a4982ca016c4829471
+      internalID: -1986915918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_89
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f8fb38c7e8aa241a53738af48b18ac
+      internalID: 1872354828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_90
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7602b62c8385f8749903688d4729efd5
+      internalID: -273287470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_91
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7970b215a320a8945b8e5ee80e9083a3
+      internalID: 442935592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_92
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d87e43cc23de2f44a4fc7830354b419
+      internalID: -718640052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_93
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b44b9f87540b4fa3f12f549ec152e
+      internalID: 209184838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_94
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4f7700728f7343817b8fa5db8f0a6
+      internalID: 74497311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_95
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7114a7c373f977448ed087b68c0be48
+      internalID: -658228120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_96
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cda2e4cd2fcf5d47a7d6d655ad55b4c
+      internalID: 93037849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_97
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2360.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ecf85a0da8eb48bad5e00c7325d99
+      internalID: 599377402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_98
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59de95e9e72c6ad4195235c361b47e0f
+      internalID: 1056587804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_99
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cda65dbabb549c47b362fee4a142344
+      internalID: -450131227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_100
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84080ec2fff2965488b792b9f43b9cf4
+      internalID: 2145026504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_101
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773c1a37baae29b4386795cd4c8d8ce8
+      internalID: -1644584317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_102
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0e3b52ca67934987a8d8114dba49e
+      internalID: 451271431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_103
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea26054391c694793b2580dcfce8bb
+      internalID: -324289427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_104
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a185106fe1efedb4b959a4dff5d0043f
+      internalID: -1107474108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_105
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddeff6887a91e9649adb0d5999b05e16
+      internalID: -568862342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_106
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1efcd6573962349b99067622eda3c9
+      internalID: 939216171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_107
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe17f4ce8c8f0448c976c4d5d6f4c5
+      internalID: 1298014152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_108
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f44554c2d42204eaed67651ce35cc7
+      internalID: -882635800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_109
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d0423784d63494895ee80e11e89f54
+      internalID: 983438320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_110
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a151737fb395f8c49be884698425eabb
+      internalID: 1033867572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_111
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2100.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e142cd295de39d438b03fb5bb604702
+      internalID: 1854012346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_112
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab510254abff7b4ba53ec41aa2d6bef
+      internalID: -1596826695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_113
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60acf6606bdd6d4f99cf240ca380121
+      internalID: 1705779949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_114
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328848cfb84e65e4983b7d9cbca0b315
+      internalID: 229935514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_115
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed3b8d6b08c73c4280a42893ae350f7
+      internalID: -376905854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_116
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a751b6f7cc2ddd408740f22ccb8ce20
+      internalID: -1010994105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_117
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7c98d939c0eec478461f048a8afced
+      internalID: 1298348863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_118
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ee05154c3e6b46ac0627921e10a8c
+      internalID: 792620140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_119
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf2690bc41e3f43b528b52b96137f0
+      internalID: 920285663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_120
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133314b955b3b8841ad6e57af44b6736
+      internalID: 1981147098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_121
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9ecc50cf615a24b9d9ce6d0103d0d4
+      internalID: 1502331687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_122
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d41f493fb9c444784f4ad33e80b9ad
+      internalID: 1262728014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_123
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dd706dab0afd343a0a4e7d2f54fe72
+      internalID: 27503003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_124
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd6836fc27a29641a09d13b15e444b7
+      internalID: -1533985444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_125
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1840.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8bcfb7bc1e0940a65d31e23f0938a
+      internalID: 1159615562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_126
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7414e65fab46ac745a2e4b1ea808bbac
+      internalID: -1244306718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_127
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80450060f7bf7cf419c511153fa198f8
+      internalID: 1048319233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_128
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950d3d11da41a941b1a2e9cf342563f
+      internalID: -394662654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_129
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9957a6130729ec74d909ca124f39ecc9
+      internalID: 22127432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_130
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048ac93c89bb7d746982f202263d3029
+      internalID: 1512143860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_131
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e66d315260066842a295ea00f32f89b
+      internalID: 1225383132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_132
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491b02111fd42e542b0fb71f4aedded8
+      internalID: 1744218307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_133
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0e49751f856641aa2538c29ecf751
+      internalID: -1218255758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_134
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4a3ed8f7eb9e24da2bbd6d9966f02c
+      internalID: -1175705881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_135
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c3a3ceeee11ae4f834602c7880873b
+      internalID: -1959319034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_136
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8cf49417e3537499cbac4a0d5e3445
+      internalID: -634355527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_137
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20cbb35044ac449a9c79dfcc0d9e6e
+      internalID: -828803898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_138
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d07a3d764686bc40a462be7c89d59c2
+      internalID: 1192325502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_139
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1580.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440d308c60a7a364e8b757cdaa08d2ee
+      internalID: -960780834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_140
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cb89e5fee69444393686617144b9f5
+      internalID: -1133698540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_141
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f1c97b4db90b84d965b67a94382ebf
+      internalID: 7454119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_142
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d94e4379443b94e87ead8ea15f5c60
+      internalID: -901145489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_143
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e88572f9ec6b44bc9e22d289d142a
+      internalID: -1719468190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_144
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377a37b056ae8424ebef9849546f3d4a
+      internalID: 165026017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_145
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f2c5a63c4b5754186b09821bc5ac9a
+      internalID: -1428256714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_146
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9cc3bbd9dcf3949a393e72f237922b
+      internalID: -1735456851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_147
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b20ca6a13fd3e4fb1fc27abc702a93
+      internalID: 1297771554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_148
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c7e91b0d47ac4ba4bf5e280cbdf80
+      internalID: 1398868060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_149
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea59cd27306ece646a0f933852e75f69
+      internalID: -565700818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_150
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d9f69e281922c4fb6c255c558d8879
+      internalID: 811877869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_151
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c148b3470cc0c6409b5dc670852c415
+      internalID: -1711354454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_152
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5ee591c2ad12c48b59ec62c1c047e5
+      internalID: -376528129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_153
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1320.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b405b9d770fc63645a4d6cbea1b1be06
+      internalID: -2117571277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_154
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41006bd278544414cb9dc04b9a2863b7
+      internalID: -2132728074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_155
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef26b21dd89ea940a13ba08219b3fd0
+      internalID: -806610407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_156
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d0d9f162b77445bde31b1d60933c0
+      internalID: 1045098699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_157
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d9df58c02599f40be4504e0cc32945
+      internalID: 142259477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_158
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd31fee97c8fa445957c48ef0e8947c
+      internalID: -1717380913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_159
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fea8bd100a5da54e925603a3512e71d
+      internalID: -1973156958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_160
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23335ad56e5f2a2478e3c8f1b6fc987d
+      internalID: -1724565420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_161
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe7db8a46e8fc4faa58572b3a77f70
+      internalID: -2036210554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_162
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eab755225e72cb4fa07b746933b8fb4
+      internalID: -1060884981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_163
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4072753622bafa04b8c1d95f08ad8a11
+      internalID: 839222673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_164
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e7023ba24e48d458c379a0d1d2c1a3
+      internalID: 1372361751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_165
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6787abfa0c67cb148b741da133d9a8a3
+      internalID: -560794315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_166
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dae52b807723342913b9afe3deed93
+      internalID: -1374842102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_167
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1060.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4c751fedcc2446b0b6594e6ca49a1
+      internalID: 538974241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_168
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a25ec1f8a9bfa4990e34555b20e4c0
+      internalID: -996835655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_169
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74e634b2ddd73644b1de1b677426972
+      internalID: 1355225710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_170
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a699a7ba3c11464bbe42e9ae179b8b0
+      internalID: 2025796960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_171
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffae3d138d7be554e9a0ba660fc5711f
+      internalID: 1558262669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_172
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec3fb486884dca41b01f232aac15270
+      internalID: -1962901024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_173
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2526a1abdcdacfc44ad460cce171b36a
+      internalID: 839755405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_174
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feea0b635582f3d4ba7fe3341e1c6c0a
+      internalID: 1570123184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_175
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862f4bf33661ab04e97bff03a52a6899
+      internalID: -746576473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_176
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b377e34d9effd8448c7155008fb810b
+      internalID: -162731560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_177
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b7b931d69d804eb12c1ee529cc9e0
+      internalID: 1364888463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_178
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8baa9fd310451344be554823db62ea8
+      internalID: 753860998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_179
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54903ef6b7eacfa4ca044aa565596d1b
+      internalID: -60368560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_180
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b8604527437744ac13c297cd3292c
+      internalID: -1537581036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_181
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 800.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a324c3355d4e4db2e38630d497b17
+      internalID: 86616881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_182
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b97732507fc78e44ab9a2d7099e6d8d
+      internalID: 771440428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_183
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139e1a68a88f9941ba9848ea762f09e
+      internalID: 411795477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_184
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d54c838c744814aa54d4bcfd93bf8b
+      internalID: 1382939921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_185
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4a3ad3ec34ce049a28451271fc5742
+      internalID: -1700804850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_186
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f959a0441f5c29c48a623ea69faadde4
+      internalID: -324484909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_187
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f446c6f305dfa8845afe8077cc6734a7
+      internalID: -557356634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_188
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62ba43f55e8d348bea935b800eb7f7
+      internalID: -721162101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_189
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed1f6314dc8844586da5c03f31aef7
+      internalID: -1653820301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_190
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea61e1e5fea2b44bad81a7ad451d19
+      internalID: -2086545533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_191
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c50005d019a14a80d633524918946
+      internalID: 23636734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_192
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c488a572f8f20484ab31dc3ba4bc7d35
+      internalID: 1133171299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_193
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a71847b97de56428c19b6888ea8fca
+      internalID: -1955591664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_194
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0386f84061f0241a56c5d6ba7c6a98
+      internalID: -52265249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_195
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 540.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87adcce1c03ce39489467a2bde962487
+      internalID: -1735895551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_196
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a356c6d1c5af4e92a53810607f439
+      internalID: -150015338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_197
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ec1cbe5e46c7a46b3c7c51f99e1f3a
+      internalID: -1348050453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_198
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b9fc18498be3443ad28fd2925d37c4
+      internalID: 53458225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_199
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6953204b0f486343a0d3e696c0adc54
+      internalID: -758392364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_200
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baf737a32415d8439d13cfbc4d47a68
+      internalID: -1025443612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_201
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63064a4eb89a1dd45bd2e1e18346e510
+      internalID: -171072116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_202
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ef8cad9d5e1434c8ae63597e8f1efc
+      internalID: -367806855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_203
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce9528c8bcca2c43a0da8ccb3e34c6d
+      internalID: -138523024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_204
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc921414819ff0e4782fce8e9459498a
+      internalID: 1866336181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_205
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240b408397df824684e2d75c130734b
+      internalID: -1031292821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_206
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd890ee1d437c64297e11256fe03877
+      internalID: 929727575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_207
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd32cec8bcc655b4caa9556d815babf5
+      internalID: 208105884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_208
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816e3f099d3e4544e9555885b0ba9da3
+      internalID: -444244900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_209
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 280.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88666e048e7845f48a7b1423dfcf31ec
+      internalID: 63569013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_210
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400592d751bbf2443af22d8e7a745980
+      internalID: 762631313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_211
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e71eb49fd09874d987c84648697407
+      internalID: 1274664516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_212
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b483f0ade21049ab91e6488c273ec
+      internalID: 1133114727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_213
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab45cb8251cb6bb44acb0380cac11d23
+      internalID: 262652863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_214
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d40c3271321e8746a40eb532abb5edd
+      internalID: 735624621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_215
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e33b922d1cbb0b43ac925ee62f195ca
+      internalID: -1044737150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_216
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e17267e0f5de334a9c3946c8c61294e
+      internalID: 181657490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_217
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7c1040eab4f3489181c869b9640e4
+      internalID: 1283410616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_218
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9857e01eca42429d3a48e4b55c4cc
+      internalID: -1540847280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_219
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52da16354a7b39e4db40af1d11931684
+      internalID: -71257571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_220
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74588972cb53a344add7f03d2028cce
+      internalID: 1510935623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_221
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1446deae660f424b923f8bd86d83e7d
+      internalID: -86534606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_222
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9cbfd510b115e429f0f54092a7f896
+      internalID: -1515922551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Pokemon Shuffle - 1st Generation_223
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 20.9375
+        width: 239.92857
+        height: 240.0625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1530f8974b6c446bc74e37e7ce8067
+      internalID: 1151507667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      3DS - Pokemon Shuffle - 1st Generation_0: -506959759
+      3DS - Pokemon Shuffle - 1st Generation_1: 1807455578
+      3DS - Pokemon Shuffle - 1st Generation_10: 502600773
+      3DS - Pokemon Shuffle - 1st Generation_100: 2145026504
+      3DS - Pokemon Shuffle - 1st Generation_101: -1644584317
+      3DS - Pokemon Shuffle - 1st Generation_102: 451271431
+      3DS - Pokemon Shuffle - 1st Generation_103: -324289427
+      3DS - Pokemon Shuffle - 1st Generation_104: -1107474108
+      3DS - Pokemon Shuffle - 1st Generation_105: -568862342
+      3DS - Pokemon Shuffle - 1st Generation_106: 939216171
+      3DS - Pokemon Shuffle - 1st Generation_107: 1298014152
+      3DS - Pokemon Shuffle - 1st Generation_108: -882635800
+      3DS - Pokemon Shuffle - 1st Generation_109: 983438320
+      3DS - Pokemon Shuffle - 1st Generation_11: 970380938
+      3DS - Pokemon Shuffle - 1st Generation_110: 1033867572
+      3DS - Pokemon Shuffle - 1st Generation_111: 1854012346
+      3DS - Pokemon Shuffle - 1st Generation_112: -1596826695
+      3DS - Pokemon Shuffle - 1st Generation_113: 1705779949
+      3DS - Pokemon Shuffle - 1st Generation_114: 229935514
+      3DS - Pokemon Shuffle - 1st Generation_115: -376905854
+      3DS - Pokemon Shuffle - 1st Generation_116: -1010994105
+      3DS - Pokemon Shuffle - 1st Generation_117: 1298348863
+      3DS - Pokemon Shuffle - 1st Generation_118: 792620140
+      3DS - Pokemon Shuffle - 1st Generation_119: 920285663
+      3DS - Pokemon Shuffle - 1st Generation_12: -769268298
+      3DS - Pokemon Shuffle - 1st Generation_120: 1981147098
+      3DS - Pokemon Shuffle - 1st Generation_121: 1502331687
+      3DS - Pokemon Shuffle - 1st Generation_122: 1262728014
+      3DS - Pokemon Shuffle - 1st Generation_123: 27503003
+      3DS - Pokemon Shuffle - 1st Generation_124: -1533985444
+      3DS - Pokemon Shuffle - 1st Generation_125: 1159615562
+      3DS - Pokemon Shuffle - 1st Generation_126: -1244306718
+      3DS - Pokemon Shuffle - 1st Generation_127: 1048319233
+      3DS - Pokemon Shuffle - 1st Generation_128: -394662654
+      3DS - Pokemon Shuffle - 1st Generation_129: 22127432
+      3DS - Pokemon Shuffle - 1st Generation_13: 1263468555
+      3DS - Pokemon Shuffle - 1st Generation_130: 1512143860
+      3DS - Pokemon Shuffle - 1st Generation_131: 1225383132
+      3DS - Pokemon Shuffle - 1st Generation_132: 1744218307
+      3DS - Pokemon Shuffle - 1st Generation_133: -1218255758
+      3DS - Pokemon Shuffle - 1st Generation_134: -1175705881
+      3DS - Pokemon Shuffle - 1st Generation_135: -1959319034
+      3DS - Pokemon Shuffle - 1st Generation_136: -634355527
+      3DS - Pokemon Shuffle - 1st Generation_137: -828803898
+      3DS - Pokemon Shuffle - 1st Generation_138: 1192325502
+      3DS - Pokemon Shuffle - 1st Generation_139: -960780834
+      3DS - Pokemon Shuffle - 1st Generation_14: -127052395
+      3DS - Pokemon Shuffle - 1st Generation_140: -1133698540
+      3DS - Pokemon Shuffle - 1st Generation_141: 7454119
+      3DS - Pokemon Shuffle - 1st Generation_142: -901145489
+      3DS - Pokemon Shuffle - 1st Generation_143: -1719468190
+      3DS - Pokemon Shuffle - 1st Generation_144: 165026017
+      3DS - Pokemon Shuffle - 1st Generation_145: -1428256714
+      3DS - Pokemon Shuffle - 1st Generation_146: -1735456851
+      3DS - Pokemon Shuffle - 1st Generation_147: 1297771554
+      3DS - Pokemon Shuffle - 1st Generation_148: 1398868060
+      3DS - Pokemon Shuffle - 1st Generation_149: -565700818
+      3DS - Pokemon Shuffle - 1st Generation_15: 370054071
+      3DS - Pokemon Shuffle - 1st Generation_150: 811877869
+      3DS - Pokemon Shuffle - 1st Generation_151: -1711354454
+      3DS - Pokemon Shuffle - 1st Generation_152: -376528129
+      3DS - Pokemon Shuffle - 1st Generation_153: -2117571277
+      3DS - Pokemon Shuffle - 1st Generation_154: -2132728074
+      3DS - Pokemon Shuffle - 1st Generation_155: -806610407
+      3DS - Pokemon Shuffle - 1st Generation_156: 1045098699
+      3DS - Pokemon Shuffle - 1st Generation_157: 142259477
+      3DS - Pokemon Shuffle - 1st Generation_158: -1717380913
+      3DS - Pokemon Shuffle - 1st Generation_159: -1973156958
+      3DS - Pokemon Shuffle - 1st Generation_16: -1491955779
+      3DS - Pokemon Shuffle - 1st Generation_160: -1724565420
+      3DS - Pokemon Shuffle - 1st Generation_161: -2036210554
+      3DS - Pokemon Shuffle - 1st Generation_162: -1060884981
+      3DS - Pokemon Shuffle - 1st Generation_163: 839222673
+      3DS - Pokemon Shuffle - 1st Generation_164: 1372361751
+      3DS - Pokemon Shuffle - 1st Generation_165: -560794315
+      3DS - Pokemon Shuffle - 1st Generation_166: -1374842102
+      3DS - Pokemon Shuffle - 1st Generation_167: 538974241
+      3DS - Pokemon Shuffle - 1st Generation_168: -996835655
+      3DS - Pokemon Shuffle - 1st Generation_169: 1355225710
+      3DS - Pokemon Shuffle - 1st Generation_17: 1769702423
+      3DS - Pokemon Shuffle - 1st Generation_170: 2025796960
+      3DS - Pokemon Shuffle - 1st Generation_171: 1558262669
+      3DS - Pokemon Shuffle - 1st Generation_172: -1962901024
+      3DS - Pokemon Shuffle - 1st Generation_173: 839755405
+      3DS - Pokemon Shuffle - 1st Generation_174: 1570123184
+      3DS - Pokemon Shuffle - 1st Generation_175: -746576473
+      3DS - Pokemon Shuffle - 1st Generation_176: -162731560
+      3DS - Pokemon Shuffle - 1st Generation_177: 1364888463
+      3DS - Pokemon Shuffle - 1st Generation_178: 753860998
+      3DS - Pokemon Shuffle - 1st Generation_179: -60368560
+      3DS - Pokemon Shuffle - 1st Generation_18: 1343690997
+      3DS - Pokemon Shuffle - 1st Generation_180: -1537581036
+      3DS - Pokemon Shuffle - 1st Generation_181: 86616881
+      3DS - Pokemon Shuffle - 1st Generation_182: 771440428
+      3DS - Pokemon Shuffle - 1st Generation_183: 411795477
+      3DS - Pokemon Shuffle - 1st Generation_184: 1382939921
+      3DS - Pokemon Shuffle - 1st Generation_185: -1700804850
+      3DS - Pokemon Shuffle - 1st Generation_186: -324484909
+      3DS - Pokemon Shuffle - 1st Generation_187: -557356634
+      3DS - Pokemon Shuffle - 1st Generation_188: -721162101
+      3DS - Pokemon Shuffle - 1st Generation_189: -1653820301
+      3DS - Pokemon Shuffle - 1st Generation_19: -30847960
+      3DS - Pokemon Shuffle - 1st Generation_190: -2086545533
+      3DS - Pokemon Shuffle - 1st Generation_191: 23636734
+      3DS - Pokemon Shuffle - 1st Generation_192: 1133171299
+      3DS - Pokemon Shuffle - 1st Generation_193: -1955591664
+      3DS - Pokemon Shuffle - 1st Generation_194: -52265249
+      3DS - Pokemon Shuffle - 1st Generation_195: -1735895551
+      3DS - Pokemon Shuffle - 1st Generation_196: -150015338
+      3DS - Pokemon Shuffle - 1st Generation_197: -1348050453
+      3DS - Pokemon Shuffle - 1st Generation_198: 53458225
+      3DS - Pokemon Shuffle - 1st Generation_199: -758392364
+      3DS - Pokemon Shuffle - 1st Generation_2: -580414716
+      3DS - Pokemon Shuffle - 1st Generation_20: -1661127616
+      3DS - Pokemon Shuffle - 1st Generation_200: -1025443612
+      3DS - Pokemon Shuffle - 1st Generation_201: -171072116
+      3DS - Pokemon Shuffle - 1st Generation_202: -367806855
+      3DS - Pokemon Shuffle - 1st Generation_203: -138523024
+      3DS - Pokemon Shuffle - 1st Generation_204: 1866336181
+      3DS - Pokemon Shuffle - 1st Generation_205: -1031292821
+      3DS - Pokemon Shuffle - 1st Generation_206: 929727575
+      3DS - Pokemon Shuffle - 1st Generation_207: 208105884
+      3DS - Pokemon Shuffle - 1st Generation_208: -444244900
+      3DS - Pokemon Shuffle - 1st Generation_209: 63569013
+      3DS - Pokemon Shuffle - 1st Generation_21: -1853226054
+      3DS - Pokemon Shuffle - 1st Generation_210: 762631313
+      3DS - Pokemon Shuffle - 1st Generation_211: 1274664516
+      3DS - Pokemon Shuffle - 1st Generation_212: 1133114727
+      3DS - Pokemon Shuffle - 1st Generation_213: 262652863
+      3DS - Pokemon Shuffle - 1st Generation_214: 735624621
+      3DS - Pokemon Shuffle - 1st Generation_215: -1044737150
+      3DS - Pokemon Shuffle - 1st Generation_216: 181657490
+      3DS - Pokemon Shuffle - 1st Generation_217: 1283410616
+      3DS - Pokemon Shuffle - 1st Generation_218: -1540847280
+      3DS - Pokemon Shuffle - 1st Generation_219: -71257571
+      3DS - Pokemon Shuffle - 1st Generation_22: 1198972766
+      3DS - Pokemon Shuffle - 1st Generation_220: 1510935623
+      3DS - Pokemon Shuffle - 1st Generation_221: -86534606
+      3DS - Pokemon Shuffle - 1st Generation_222: -1515922551
+      3DS - Pokemon Shuffle - 1st Generation_223: 1151507667
+      3DS - Pokemon Shuffle - 1st Generation_23: -573120065
+      3DS - Pokemon Shuffle - 1st Generation_24: 1500299267
+      3DS - Pokemon Shuffle - 1st Generation_25: 897544764
+      3DS - Pokemon Shuffle - 1st Generation_26: -43913435
+      3DS - Pokemon Shuffle - 1st Generation_27: 425925247
+      3DS - Pokemon Shuffle - 1st Generation_28: -529273146
+      3DS - Pokemon Shuffle - 1st Generation_29: -251942195
+      3DS - Pokemon Shuffle - 1st Generation_3: -839493512
+      3DS - Pokemon Shuffle - 1st Generation_30: -145144518
+      3DS - Pokemon Shuffle - 1st Generation_31: -1963536529
+      3DS - Pokemon Shuffle - 1st Generation_32: 1764663799
+      3DS - Pokemon Shuffle - 1st Generation_33: -654228673
+      3DS - Pokemon Shuffle - 1st Generation_34: 1570082594
+      3DS - Pokemon Shuffle - 1st Generation_35: -939472249
+      3DS - Pokemon Shuffle - 1st Generation_36: 638636755
+      3DS - Pokemon Shuffle - 1st Generation_37: -954238834
+      3DS - Pokemon Shuffle - 1st Generation_38: 2054400138
+      3DS - Pokemon Shuffle - 1st Generation_39: 267341554
+      3DS - Pokemon Shuffle - 1st Generation_4: 1167997846
+      3DS - Pokemon Shuffle - 1st Generation_40: 2102336536
+      3DS - Pokemon Shuffle - 1st Generation_41: -870958745
+      3DS - Pokemon Shuffle - 1st Generation_42: -1461449451
+      3DS - Pokemon Shuffle - 1st Generation_43: -64061647
+      3DS - Pokemon Shuffle - 1st Generation_44: 1731349795
+      3DS - Pokemon Shuffle - 1st Generation_45: -1201708634
+      3DS - Pokemon Shuffle - 1st Generation_46: 1986582928
+      3DS - Pokemon Shuffle - 1st Generation_47: -1421642254
+      3DS - Pokemon Shuffle - 1st Generation_48: 1678986743
+      3DS - Pokemon Shuffle - 1st Generation_49: 1219175617
+      3DS - Pokemon Shuffle - 1st Generation_5: 1897972619
+      3DS - Pokemon Shuffle - 1st Generation_50: 1990083826
+      3DS - Pokemon Shuffle - 1st Generation_51: -974428148
+      3DS - Pokemon Shuffle - 1st Generation_52: -317940835
+      3DS - Pokemon Shuffle - 1st Generation_53: 1840880394
+      3DS - Pokemon Shuffle - 1st Generation_54: -508577413
+      3DS - Pokemon Shuffle - 1st Generation_55: 1452341250
+      3DS - Pokemon Shuffle - 1st Generation_56: -2022312440
+      3DS - Pokemon Shuffle - 1st Generation_57: 898567021
+      3DS - Pokemon Shuffle - 1st Generation_58: -350549127
+      3DS - Pokemon Shuffle - 1st Generation_59: 1349907181
+      3DS - Pokemon Shuffle - 1st Generation_6: -610626709
+      3DS - Pokemon Shuffle - 1st Generation_60: 1490258992
+      3DS - Pokemon Shuffle - 1st Generation_61: -683071351
+      3DS - Pokemon Shuffle - 1st Generation_62: -959414606
+      3DS - Pokemon Shuffle - 1st Generation_63: -94738985
+      3DS - Pokemon Shuffle - 1st Generation_64: -1495921125
+      3DS - Pokemon Shuffle - 1st Generation_65: -1890889736
+      3DS - Pokemon Shuffle - 1st Generation_66: -1986418822
+      3DS - Pokemon Shuffle - 1st Generation_67: 363882391
+      3DS - Pokemon Shuffle - 1st Generation_68: 986605375
+      3DS - Pokemon Shuffle - 1st Generation_69: 1436817690
+      3DS - Pokemon Shuffle - 1st Generation_7: -1099616015
+      3DS - Pokemon Shuffle - 1st Generation_70: -1563936901
+      3DS - Pokemon Shuffle - 1st Generation_71: -1788955351
+      3DS - Pokemon Shuffle - 1st Generation_72: 266266928
+      3DS - Pokemon Shuffle - 1st Generation_73: 1120601139
+      3DS - Pokemon Shuffle - 1st Generation_74: 654984024
+      3DS - Pokemon Shuffle - 1st Generation_75: 2012732401
+      3DS - Pokemon Shuffle - 1st Generation_76: 1574608842
+      3DS - Pokemon Shuffle - 1st Generation_77: -72090123
+      3DS - Pokemon Shuffle - 1st Generation_78: 905121267
+      3DS - Pokemon Shuffle - 1st Generation_79: -342723194
+      3DS - Pokemon Shuffle - 1st Generation_8: -1771219960
+      3DS - Pokemon Shuffle - 1st Generation_80: 323826771
+      3DS - Pokemon Shuffle - 1st Generation_81: 1523235820
+      3DS - Pokemon Shuffle - 1st Generation_82: -246729507
+      3DS - Pokemon Shuffle - 1st Generation_83: -1830181048
+      3DS - Pokemon Shuffle - 1st Generation_84: 1179463934
+      3DS - Pokemon Shuffle - 1st Generation_85: 1148713570
+      3DS - Pokemon Shuffle - 1st Generation_86: -1445366193
+      3DS - Pokemon Shuffle - 1st Generation_87: -898076741
+      3DS - Pokemon Shuffle - 1st Generation_88: -1986915918
+      3DS - Pokemon Shuffle - 1st Generation_89: 1872354828
+      3DS - Pokemon Shuffle - 1st Generation_9: 1103411151
+      3DS - Pokemon Shuffle - 1st Generation_90: -273287470
+      3DS - Pokemon Shuffle - 1st Generation_91: 442935592
+      3DS - Pokemon Shuffle - 1st Generation_92: -718640052
+      3DS - Pokemon Shuffle - 1st Generation_93: 209184838
+      3DS - Pokemon Shuffle - 1st Generation_94: 74497311
+      3DS - Pokemon Shuffle - 1st Generation_95: -658228120
+      3DS - Pokemon Shuffle - 1st Generation_96: 93037849
+      3DS - Pokemon Shuffle - 1st Generation_97: 599377402
+      3DS - Pokemon Shuffle - 1st Generation_98: 1056587804
+      3DS - Pokemon Shuffle - 1st Generation_99: -450131227
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

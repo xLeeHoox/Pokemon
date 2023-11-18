@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d62758c3376ba04da43250509cad8ec, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  level: 1
+  backgroundSprite: {fileID: 21300000, guid: 741475d10cb86a943a3b56e38364173d, type: 3}
+  levelDuration: 30
+  enemyList:
+  - spawnableObject: {fileID: 11400000, guid: 72f4e34ee0bb746439c74473385c4609, type: 2}
+    number: 3
+  buffList:
+  - spawnableObject: {fileID: 11400000, guid: f7c25c6d55177fb4da2d8939c644c98a, type: 2}
+    number: 1
+  - spawnableObject: {fileID: 11400000, guid: 929719dd456565e419ac78c63db00b7a, type: 2}
+    number: 1
+  - spawnableObject: {fileID: 11400000, guid: 5c050e20c7e541a4fa773a65aaa4e2d3, type: 2}
+    number: 1
+  - spawnableObject: {fileID: 11400000, guid: 7f7dcdc3df671fa4090707002eb55e51, type: 2}
+    number: 1
+  - spawnableObject: {fileID: 11400000, guid: 83d4db911f554264ebd394b2562d0d88, type: 2}
+    number: 1

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b653dd4ece3f587469a50cabda8a5202, type: 3}
+  m_Name: Item_Pokemon_normal
+  m_EditorClassIdentifier: 
+  itemInfor:
+  - itemImage: {fileID: 460148603, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    isUnlock: 1
+  - itemImage: {fileID: -127052395, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 0
+  - itemImage: {fileID: 970380938, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 1
+  - itemImage: {fileID: 1764663799, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 0
+  - itemImage: {fileID: -939472249, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 0
+  - itemImage: {fileID: 1990083826, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 0
+  - itemImage: {fileID: -1890889736, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 0
+  - itemImage: {fileID: 209184838, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+    isUnlock: 1
+  price: 1000
+  itemType: 0
+  itemPrefab: {fileID: 2848945702096120124, guid: e8073c7d03272a742a914af8eb810c36, type: 3}
