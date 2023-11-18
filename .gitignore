@@ -10,3 +10,5 @@ Temp
 *.apk
 .vsconfig
 UserSettings
+*.unitypackage
+*.unitypackage.meta
