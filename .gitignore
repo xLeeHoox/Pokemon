@@ -5,3 +5,7 @@ Library
 obj
 Logs
 Temp
+*.csproj
+*.sln
+*.apk
+.vsconfig
