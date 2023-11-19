@@ -40,16 +40,8 @@ public class GameManager : SingletonMonoBehavior<GameManager>
                     SpawnByTime(3);
                     if (UpdateUI.Instance.GetComponentInChildren<CooldownClock>().IsOutOfTime())
                     {
-                        if (IsWinGame())
-                        {
-                            GameResources.Instance.player.characterLevel.IncreaseExp(200);
-                            currentGameState = GameState.WinGame;
-                        }
-                        else
-                        {
-                            GameResources.Instance.player.characterLevel.IncreaseExp(100);
-                            currentGameState = GameState.LoseGame;
-                        }
+                        GameResources.Instance.player.characterLevel.IncreaseExp(200);
+                        currentGameState = GameState.WinGame;
                     }
                     break;
                 }
@@ -213,6 +205,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     {
         player.gameObject.SetActive(false);
         PoolManager.Instance.gameObject.SetActive(false);
+        Debug.Log("Disable all player");
     }
 
 }
