@@ -26,6 +26,9 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         InitializePlayer(GameResources.Instance.currentCharacterSO);
         SetBackGround();
         currentGameState = GameState.Playing;
+
+        GameResources.Instance.InitializeInterstitialAds();
+    }
     public void OnDisable()
     {
         PlayerPrefs.SetFloat("currentGold", GameResources.Instance.currentGold);
