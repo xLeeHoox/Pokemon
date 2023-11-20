@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 5614402911133502063}
   - component: {fileID: 5833382001826749605}
   - component: {fileID: 2222463436482988541}
+  - component: {fileID: 3241834731894066210}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -110,7 +111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ebd2e03e1b857041886222fa9cc109e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  facingDir: -1
   imageTransform: {fileID: 354703513901556686}
   bubblePrefab: {fileID: 2656734301596336875}
 --- !u!114 &354703512032262657
@@ -137,8 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30cd7627b2e0c9b439237d9058399299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashForce: 300
-  dashDuration: 0.05
   currentMana: 0
   isDashing: 0
   dashTrailEffect: {fileID: 4877620316176406462}
@@ -161,9 +159,11 @@ MonoBehaviour:
   powerController: {fileID: 0}
   score: {fileID: 0}
   animator: {fileID: 0}
+  playerInput: {fileID: 0}
   playerImage: {fileID: 354703513901556685}
   collectArea: {fileID: 6812357555529549074}
   collectAreaRadius: 6
+  isPlayerDead: 0
 --- !u!114 &5614402911133502063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +204,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScore: 0
+--- !u!114 &3241834731894066210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354703512032262659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b8a1e0831c8004f9bd113c3bd11c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &354703513901556687
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +372,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 12, y: 12}
-  m_SizeDelta: {x: 453.9, y: 200}
+  m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &354703513932374435
 CanvasRenderer:
