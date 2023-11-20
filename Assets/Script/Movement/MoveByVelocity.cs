@@ -5,8 +5,6 @@ using UnityEngine;
 public class MoveByVelocity : MonoBehaviour
 {
     Rigidbody2D rb;
-    public int facingDir = -1;
-    bool isFacingLeft = true;
     public float currentSpeed { get; set; }
     public float permanentSpeed { get; set; }
     [SerializeField] Transform imageTransform; // serializeField image to flip without filp the whole object (include Power Text)
@@ -29,26 +27,6 @@ public class MoveByVelocity : MonoBehaviour
         rb.velocity = direction * currentSpeed;
         imageTransform.right = -direction;
         bubblePrefab.transform.right = Quaternion.AngleAxis(90, Vector3.forward) * direction;
-        //FlipController(direction);
-    }
-    public void Flip()
-    {
-        imageTransform.Rotate(0, 180, 0);
-    }
-    public void FlipController(Vector2 velocity)
-    {
-        if (velocity.x < 0 && !isFacingLeft)
-        {
-            Flip();
-            facingDir = -1;
-            isFacingLeft = true;
-        }
-        if (velocity.x > 0 && isFacingLeft)
-        {
-            Flip();
-            facingDir = 1;
-            isFacingLeft = false;
-        }
     }
     public void IncreaseSpeed(float value)
     {
