@@ -79,7 +79,9 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     {
         GameObject newPlayer = Instantiate(characterSO.playerPrefab, Vector3.zero, Quaternion.identity);
         player = newPlayer.GetComponent<Player>();
+        newPlayer.gameObject.name = player.playerSO.characterName;
         player.UpdateImage(player.playerSO.characterSprite);
+        player.animator.CrossFadeInFixedTime(GameResources.Instance.currentCharacterSO.idleAnimName, 0.25f, -1, 0f);
         rankingList.Add(player.score);
         player.powerController.SetCurrentPower(player.playerSO.startPower);
         player.dashAbility.FillMana(player.playerSO.maxMana);
