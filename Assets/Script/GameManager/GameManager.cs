@@ -50,7 +50,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
                     SpawnByTime(3);
                     if (UpdateUI.Instance.GetComponentInChildren<CooldownClock>().IsOutOfTime())
                     {
-                        GameResources.Instance.player.characterLevel.IncreaseExp(200);
+                        GameResources.Instance.currentCharacterSO.characterLevel.IncreaseExp(200);
                         currentGameState = GameState.WinGame;
                     }
                     break;
