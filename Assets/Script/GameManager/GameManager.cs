@@ -154,7 +154,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     }
     public void SetBackGround()
     {
-        backgroundSprite.sprite = GameResources.Instance.selectedLevelSO.backgroundSprite;
+        backgroundSprite.sprite = GameResources.Instance.currentLevelSO.backgroundSprite;
     }
     public void ResetGame()
     {
