@@ -132,13 +132,12 @@ public class GameManager : SingletonMonoBehavior<GameManager>
                 SpawnEnemy(item.spawnableObject, valueList[Random.Range(0, valueList.Length)]);
             }
         }
-        foreach (var item in levelSO.buffList)
+        int randomIndex = Random.Range(0, levelSO.buffList.Count); //Spawn random 1 type of buff
+        for (int i = 0; i < levelSO.buffList[randomIndex].number; i++)
         {
-            for (int i = 0; i < item.number; i++)
-            {
-                SpawnBuff(item.spawnableObject);
-            }
+            SpawnBuff(levelSO.buffList[randomIndex].spawnableObject);
         }
+
     }
     public void SpawnByTime(float intervalTime)
     {
