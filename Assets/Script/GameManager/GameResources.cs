@@ -17,7 +17,6 @@ public class GameResources : MonoBehaviour
         }
     }
 
-    [SerializeField] public CharacterSO player;
     [SerializeField] public EnemySO enemy;
     [SerializeField] public ItemSO pokemonItem;
     [SerializeField] public List<LevelSO> levelList;
@@ -25,7 +24,8 @@ public class GameResources : MonoBehaviour
     [SerializeField] public List<GameObject> scorePrefab;
     [SerializeField] public List<LevelInfor> levelInfors;
     [SerializeField] public GameObject bloodEffect;
-    public LevelSO selectedLevelSO;
+    [SerializeField] public CharacterSO currentCharacterSO;
+    public LevelSO currentLevelSO;
     public float currentGem;
     public float currentGold;
     public void LoadData()
