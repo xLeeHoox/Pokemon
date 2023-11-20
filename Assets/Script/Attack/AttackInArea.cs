@@ -17,7 +17,7 @@ public class AttackInArea : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (player != null)
+        if (player != null) // truong hop player an enemy
         {
             Enemy enemyColision = collision.GetComponent<Enemy>();
             if (enemyColision != null)
@@ -35,7 +35,7 @@ public class AttackInArea : MonoBehaviour
                 }
             }
         }
-        if (enemy != null)
+        if (enemy != null) // truong hop enemy an enemy
         {
             Enemy enemyColision = collision.GetComponent<Enemy>();
             Player playerColision = collision.GetComponent<Player>();
