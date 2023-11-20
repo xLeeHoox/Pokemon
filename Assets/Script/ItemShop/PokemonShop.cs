@@ -18,7 +18,7 @@ public class PokemonShop : SingletonMonoBehavior<PokemonShop>
     public void GeneratePokemonShop()
     {
         ItemSO itemSO = GameResources.Instance.pokemonItem;
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 4; i++)
         {
             GameObject newItem = Instantiate(itemSO.itemPrefab);
             newItem.transform.SetParent(pokemonNormalParent,false);
