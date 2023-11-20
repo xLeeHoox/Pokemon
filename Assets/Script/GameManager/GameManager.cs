@@ -212,16 +212,16 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         yield return new WaitForSeconds(3);
         GameResources.Instance.ShowAd();
         UpdateUI.Instance.OnWinGame();
-        currentGameState = GameState.Waiting;
     }
     IEnumerator OnLoseGame()
     {
+        currentGameState = GameState.Waiting;
         UpdateUI.Instance.losePanel.SetActive(true);
-        DisableAllPlayer();
         yield return new WaitForSeconds(3);
+        DisableAllPlayer();
         GameResources.Instance.ShowAd();
         UpdateUI.Instance.OnLoseGame();
-        currentGameState = GameState.Waiting;
+
     }
 
     public bool IsWinGame()
