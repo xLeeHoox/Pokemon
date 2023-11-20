@@ -121,6 +121,8 @@ public class GameManager : SingletonMonoBehavior<GameManager>
 
     public void GenerateLevel(LevelSO levelSO)
     {
+        if (player.isPlayerDead) return; // neu player dead thi return luon
+
         foreach (var item in levelSO.enemyList)
         {
             for (int i = 0; i < item.number; i++)
@@ -138,6 +140,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     }
     public void SpawnByTime(float intervalTime)
     {
+        if (player.isPlayerDead) return; // neu player dead thi return luon
 
         if ((Time.time - currentTime) >= intervalTime)
         {
