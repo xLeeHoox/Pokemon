@@ -23,7 +23,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
 
     public void Start()
     {
-        InitializePlayer(GameResources.Instance.player);
+        InitializePlayer(GameResources.Instance.currentCharacterSO);
         SetBackGround();
         currentGameState = GameState.Playing;
     public void OnDisable()
