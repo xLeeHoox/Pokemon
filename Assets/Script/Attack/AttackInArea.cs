@@ -55,11 +55,12 @@ public class AttackInArea : MonoBehaviour
 
                 }
             }
-            if (playerColision != null)
+            if (playerColision != null) // truong hop enemy an nguoi
             {
                 if (enemy.powerController.currentPower >= playerColision.powerController.currentPower)
                 {
-                    playerColision.gameObject.SetActive(false);
+                    playerColision.GetComponent<Player>().isPlayerDead = true;
+                    playerColision.GetComponentInChildren<SpriteRenderer>().DOFade(0, 2).OnComplete(() => playerColision.gameObject.SetActive(false));
                     GameManager.Instance.currentGameState = GameState.LoseGame;
                 }
             }
