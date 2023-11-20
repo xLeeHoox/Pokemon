@@ -28,6 +28,27 @@ public class GameResources : MonoBehaviour
     public LevelSO selectedLevelSO;
     public float currentGem;
     public float currentGold;
+    public void LoadData()
+    {
+        if (PlayerPrefs.HasKey("currentLevelIndex"))
+        {
+            int currentLevelIndex = PlayerPrefs.GetInt("currentLevelIndex");
+            string currentIdleAnimName = PlayerPrefs.GetString("currentIdleAnimName");
+            currentGem = PlayerPrefs.GetFloat("currentGem");
+            currentGold = PlayerPrefs.GetFloat("currentGold");
+            currentLevelSO = levelList[currentLevelIndex - 1];
+            currentCharacterSO.idleAnimName = currentIdleAnimName;
+            foreach (var item in pokemonItem.itemInfor)
+            {
+                if (item.idleAnimName == currentIdleAnimName)
+                {
+                    currentCharacterSO.characterSprite = item.itemImage;
+                    currentCharacterSO.characterName = item.pokemonName;
+                }
+            }
+        }
+
+    }
 
 
 }

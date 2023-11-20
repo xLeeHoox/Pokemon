@@ -26,6 +26,13 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         InitializePlayer(GameResources.Instance.player);
         SetBackGround();
         currentGameState = GameState.Playing;
+    public void OnDisable()
+    {
+        PlayerPrefs.SetFloat("currentGold", GameResources.Instance.currentGold);
+        PlayerPrefs.SetFloat("currentGem", GameResources.Instance.currentGem);
+        PlayerPrefs.SetInt("currentLevelIndex", GameResources.Instance.currentLevelSO.level);
+        PlayerPrefs.SetString("currentIdleAnimName", GameResources.Instance.currentCharacterSO.idleAnimName);
+
     }
     public void Update()
     {
