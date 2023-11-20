@@ -26,6 +26,7 @@ public class ItemPokemon : MonoBehaviour
         buyButton.onClick.AddListener(UnlockItem);
         previewButton.onClick.AddListener(PreviewItem);
         equipButton.onClick.AddListener(EquipImage);
+        equipButton.onClick.AddListener(PreviewItem);
         if (itemInfor.isUnlock)
         {
             buyButton.gameObject.SetActive(false);
