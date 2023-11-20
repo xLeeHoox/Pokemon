@@ -44,11 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578e0aa4c13b22f44893e940fb43c9e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 11400000, guid: 5c02ba51ca3b6344bae09994d4b5d123, type: 2}
   enemy: {fileID: 11400000, guid: 72f4e34ee0bb746439c74473385c4609, type: 2}
   pokemonItem: {fileID: 11400000, guid: 84a2045702307cb48ab5848b26eec160, type: 2}
   levelList:
   - {fileID: 11400000, guid: d05db357326d50a4cb9eb581286fa244, type: 2}
+  - {fileID: 11400000, guid: adf76220e5c5e36448f2d2144ba0737a, type: 2}
+  - {fileID: 11400000, guid: 8f410324df63bf642a307ea030723873, type: 2}
   rewardPrefab:
   - {fileID: 145041939633903720, guid: 28b3e8a4be1d40c4f84bcfb6098dca22, type: 3}
   - {fileID: 753022500593030114, guid: 03dd6a3057622084ea3bb9a852bed49a, type: 3}
@@ -76,6 +77,7 @@ MonoBehaviour:
   - level: 7
     expRequirement: 900
   bloodEffect: {fileID: 3600544189684008543, guid: 5e38513af66bad0449f4a6749b34d9a9, type: 3}
-  selectedLevelSO: {fileID: 11400000, guid: d05db357326d50a4cb9eb581286fa244, type: 2}
-  currentGem: 999
-  currentGold: 999
+  currentCharacterSO: {fileID: 11400000, guid: 5c02ba51ca3b6344bae09994d4b5d123, type: 2}
+  currentLevelSO: {fileID: 11400000, guid: d05db357326d50a4cb9eb581286fa244, type: 2}
+  currentGem: 0
+  currentGold: 0
