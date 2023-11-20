@@ -53,9 +53,13 @@ public class ItemPokemon : MonoBehaviour
     }
     public void EquipImage()
     {
-        GameResources.Instance.player.characterSprite = itemInfor.itemImage;
+        GameResources.Instance.currentCharacterSO.characterSprite = itemInfor.itemImage;
+        GameResources.Instance.currentCharacterSO.idleAnimName = itemInfor.idleAnimName;
+        //Animator animator = player.GetComponentInChildren<Animator>();
+        //AnimationChange animationChange = player.GetComponent<AnimationChange>();
+        //animationChange.ChangeSprite(animationChange.GetAnimationClip(animator, "PlayerIdle"), itemInfor.idleImages); //chay duoc nhung ko build duoc do su dung thu vien unityEditor
+        //animationChange.ChangeSprite(animationChange.GetAnimationClip(animator, "PlayerEat"), itemInfor.eatenImage);
         MainMenuUI.Instance.UpdatePlayerInfor();
-
     }
 
 
