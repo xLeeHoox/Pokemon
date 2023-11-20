@@ -106,11 +106,11 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     {
         Vector2 mainCameraPosion = mainCameraTransform.position;
         float yMaxBoundary = mainCameraPosion.y + 10;
-        float yMinBoundary = mainCameraPosion.y - 10;
+        //float yMinBoundary = mainCameraPosion.y - 10;
         float xMaxBoundary = mainCameraPosion.x + 16;
         float xMinBoundary = mainCameraPosion.x - 16;
 
-        GameObject newBuff = PoolManager.Instance.ReuseGameObject(buffSO.buffPrefab, new Vector2(Random.Range(xMinBoundary, xMaxBoundary), Random.Range(yMinBoundary, yMaxBoundary)));
+        GameObject newBuff = PoolManager.Instance.ReuseGameObject(buffSO.buffPrefab, new Vector2(Random.Range(xMinBoundary, xMaxBoundary), yMaxBoundary)); // Random spawn at the max boundary of main camera
         newBuff.SetActive(true);
         BuffTriggerEnter buffTriggerEnter = newBuff.GetComponent<BuffTriggerEnter>();
         buffTriggerEnter.buffSO = buffSO;
