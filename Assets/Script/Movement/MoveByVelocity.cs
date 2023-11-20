@@ -25,6 +25,8 @@ public class MoveByVelocity : MonoBehaviour
     public void CallMoveByVelocity(Vector2 direction)
     {
         rb.velocity = direction * currentSpeed;
+        if (direction.x > 0) imageTransform.localScale = new Vector3(1, -1, 1); // neu di chuyen qua ben phai thi flip sprite lai
+        else imageTransform.localScale = new Vector3(1, 1, 1); // neu ben trai di reset ve ban dau
         imageTransform.right = -direction;
         bubblePrefab.transform.right = Quaternion.AngleAxis(90, Vector3.forward) * direction;
     }
