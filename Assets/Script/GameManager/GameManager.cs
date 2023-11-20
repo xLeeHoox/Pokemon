@@ -143,11 +143,12 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     {
         if (player.isPlayerDead) return; // neu player dead thi return luon
 
+        if (enemyList.Count >= GameResources.Instance.currentLevelSO.maxEnemyNumber) return; // neu so luong enemy hien tai > max enemy thi return luon
+
         if ((Time.time - currentTime) >= intervalTime)
         {
             spawnCount++;
-            Debug.Log("Generate level");
-            GenerateLevel(GameResources.Instance.selectedLevelSO);
+            GenerateLevel(GameResources.Instance.currentLevelSO);
             currentTime = Time.time;
         }
     }
