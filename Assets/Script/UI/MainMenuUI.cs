@@ -19,7 +19,13 @@ public class MainMenuUI : SingletonMonoBehavior<MainMenuUI>
 
     void Update()
     {
+        MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) => {
+            // AppLovin SDK is initialized, start loading ads
+        };
 
+        MaxSdk.SetSdkKey("wwRz3ent4mgflhO25BSCx4JlTbQOOhcdaTXSy2qk6FDxiGJL5GOG1Uqk0XgHH1qgFmpZ1eaTSkFwshh4la9G68");
+        MaxSdk.SetUserId("USER_ID");
+        MaxSdk.InitializeSdk();
     }
     public void UpdatePlayerInfor()
     {

@@ -187,6 +187,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         UpdateUI.Instance.winPanel.SetActive(true);
         DisableAllPlayer();
         yield return new WaitForSeconds(3);
+        GameResources.Instance.ShowAd();
         UpdateUI.Instance.OnWinGame();
         currentGameState = GameState.Waiting;
     }
@@ -195,6 +196,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         UpdateUI.Instance.losePanel.SetActive(true);
         DisableAllPlayer();
         yield return new WaitForSeconds(3);
+        GameResources.Instance.ShowAd();
         UpdateUI.Instance.OnLoseGame();
         currentGameState = GameState.Waiting;
     }
