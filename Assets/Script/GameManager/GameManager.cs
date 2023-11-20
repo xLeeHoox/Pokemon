@@ -192,8 +192,21 @@ public class GameManager : SingletonMonoBehavior<GameManager>
             () => UpdateUI.Instance.rankingList[0].transform.localScale = new Vector3(1, 1, 1));
         top1Score = sortedRankingList[0];
     }
+    public int GetRankingOfPlayer()
+    {
+        foreach (var item in sortedRankingList)
+        {
+            if (item.GetComponent<Player>() != null)
+            {
+                return sortedRankingList.IndexOf(item);
+            }
+        }
+        return 0;
+
+    }
     IEnumerator OnWinGame()
     {
+        currentGameState = GameState.Waiting;
         UpdateUI.Instance.winPanel.SetActive(true);
         DisableAllPlayer();
         yield return new WaitForSeconds(3);
