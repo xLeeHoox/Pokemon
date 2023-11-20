@@ -127,7 +127,9 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         {
             for (int i = 0; i < item.number; i++)
             {
-                SpawnEnemy(item.spawnableObject, Random.Range(1, 50) * spawnCount);
+                float currentPlayerPowerValue = player.powerController.currentPower;
+                float[] valueList = { currentPlayerPowerValue * 1.1f, currentPlayerPowerValue / 1.1f };
+                SpawnEnemy(item.spawnableObject, valueList[Random.Range(0, valueList.Length)]);
             }
         }
         foreach (var item in levelSO.buffList)
