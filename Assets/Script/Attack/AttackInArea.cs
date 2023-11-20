@@ -26,7 +26,9 @@ public class AttackInArea : MonoBehaviour
                 if (player.powerController.currentPower >= enemyColision.powerController.currentPower)
                 {
                     enemyColision.gameObject.SetActive(false);
+                    GameManager.Instance.enemyList.Remove(enemyColision);
                     player.powerController.IncreasePower(enemyColision.powerController.currentPower);
+                    UpdateAllEnemyColorPower();
                     playerKillEffect.OnKillEnemy();
                     playerKillEffect.ActiveBlood(collision.transform.position);
                     Player.killNumber++;
@@ -64,5 +66,12 @@ public class AttackInArea : MonoBehaviour
 
         }
 
+    }
+    public void UpdateAllEnemyColorPower()
+    {
+        foreach (var item in GameManager.Instance.enemyList)
+        {
+            item.UpdatePowerColor();
+        }
     }
 }
