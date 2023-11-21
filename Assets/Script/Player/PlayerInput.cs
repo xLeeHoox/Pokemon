@@ -22,9 +22,15 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if (player.isPlayerDead)
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            return;
+        }
+
         // MoveInputByKeyboard();
         MoveInputByJoystick();
-        //DashInput();
+        DashInput();
     }
     public void MoveInputByKeyboard()
     {
@@ -40,11 +46,10 @@ public class PlayerInput : MonoBehaviour
     {
         float x = GameManager.Instance.ultimateJoystick.HorizontalAxis;
         float y = GameManager.Instance.ultimateJoystick.VerticalAxis; ;
+        if (x == 0 && y == 0) return;
         playerDirection = new Vector2(x, y).normalized;
-        if (playerDirection != Vector2.zero)
-        {
-            moveByVelocity.CallMoveByVelocity(playerDirection);
-        }
+        moveByVelocity.CallMoveByVelocity(playerDirection);
+
     }
     public void DashInput()
     {
@@ -57,5 +62,5 @@ public class PlayerInput : MonoBehaviour
             dashAbility.StopDash();
         }
     }
-   
+
 }
