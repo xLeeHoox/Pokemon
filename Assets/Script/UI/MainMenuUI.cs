@@ -11,14 +11,13 @@ public class MainMenuUI : SingletonMonoBehavior<MainMenuUI>
     [SerializeField] TextMeshProUGUI currentLevel;
     [SerializeField] TextMeshProUGUI playerName;
     [SerializeField] TextMeshProUGUI currentExp;
+    [SerializeField] Slider currentExpSlider;
     [SerializeField] Image playerImage;
     void Start()
     {
+        GameResources.Instance.LoadData();
         UpdatePlayerInfor();
-    }
 
-    void Update()
-    {
         MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) => {
             // AppLovin SDK is initialized, start loading ads
         };
