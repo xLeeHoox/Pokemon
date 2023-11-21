@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: LeeHoo
   characterLevel:
-    currentLevel: 4
-    currentExp: 0
+    currentLevel: 2
+    currentExp: 200
   startMoveSpeed: 5
   startPower: 150
   playerPrefab: {fileID: 354703512032262659, guid: dcbb752729298a541b535f4e57ffd513, type: 3}
   maxMana: 5
-  characterSprite: {fileID: 1574608842, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+  characterSprite: {fileID: -881994817, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+  idleAnimName: Idle01

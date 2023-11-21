@@ -13,21 +13,69 @@ MonoBehaviour:
   m_Name: Item_Pokemon_normal
   m_EditorClassIdentifier: 
   itemInfor:
-  - itemImage: {fileID: 460148603, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+  - pokemonName: BlackCat
+    itemImage: {fileID: -881994817, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    idleImages:
+    - {fileID: 1551158495, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: -876463290, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: 543179017, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: -1432627996, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: -142017740, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: 460148603, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    eatenImage:
+    - {fileID: -702893524, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: 1026852945, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: -203207789, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    - {fileID: 1356508208, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    idleAnimName: Idle01
     isUnlock: 1
-  - itemImage: {fileID: -127052395, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
-    isUnlock: 0
-  - itemImage: {fileID: 970380938, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+  - pokemonName: GreenCrocodile
+    itemImage: {fileID: 1551158495, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
+    idleImages:
+    - {fileID: -401647820, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: 463010422, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: -1679521875, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: 1723968140, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: -1411213343, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: -561203902, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    eatenImage:
+    - {fileID: 438142322, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: -1178841950, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: -2144651989, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    - {fileID: 1330772553, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    idleAnimName: Idle02
     isUnlock: 1
-  - itemImage: {fileID: 1764663799, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
-    isUnlock: 0
-  - itemImage: {fileID: -939472249, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
-    isUnlock: 0
-  - itemImage: {fileID: 1990083826, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
-    isUnlock: 0
-  - itemImage: {fileID: -1890889736, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
-    isUnlock: 0
-  - itemImage: {fileID: 209184838, guid: 979f8ab7fe854cb4f8298df1ee7db0ae, type: 3}
+  - pokemonName: FireFox
+    itemImage: {fileID: 111328514, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    idleImages:
+    - {fileID: 1270801756, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: 1054372399, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: 476956721, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: -1311995368, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: 842916221, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: 737604265, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    eatenImage:
+    - {fileID: -306266841, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: -2032177338, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: 111328514, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    - {fileID: -1008289158, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
+    idleAnimName: Idle03
+    isUnlock: 1
+  - pokemonName: GreenBean
+    itemImage: {fileID: -2144651989, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
+    idleImages:
+    - {fileID: 190677162, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: 239490660, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -1305126459, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -1038841121, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -1100488738, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -159613653, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    eatenImage:
+    - {fileID: -1707131037, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: 905190638, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -881994817, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    - {fileID: -612854519, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
+    idleAnimName: Idle04
     isUnlock: 1
   price: 1000
   itemType: 0

@@ -15,6 +15,7 @@ MonoBehaviour:
   level: 1
   backgroundSprite: {fileID: 21300000, guid: 741475d10cb86a943a3b56e38364173d, type: 3}
   levelDuration: 30
+  maxEnemyNumber: 5
   enemyList:
   - spawnableObject: {fileID: 11400000, guid: 72f4e34ee0bb746439c74473385c4609, type: 2}
     number: 3
