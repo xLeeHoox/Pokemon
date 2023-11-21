@@ -14,9 +14,12 @@ public class Player : MonoBehaviour
     [HideInInspector] public Score score;
     [HideInInspector] public Animator animator;
     [HideInInspector] public PlayerInput playerInput;
+    [HideInInspector] public AnimationChange animationChange;
     [SerializeField] SpriteRenderer playerImage;
     [SerializeField] Transform collectArea;
     [SerializeField] float collectAreaRadius;
+
+    [HideInInspector] public bool isPlayerDead = false; // su dung de xu ly effect luc playerDead
 
     public static int killNumber;
 
@@ -24,7 +27,7 @@ public class Player : MonoBehaviour
 
     public void Awake()
     {
-        playerSO = GameResources.Instance.player;
+        playerSO = GameResources.Instance.currentCharacterSO;
         moveByVelocity = GetComponent<MoveByVelocity>();
         dashAbility = GetComponent<DashAbility>();
         rb = GetComponent<Rigidbody2D>();
@@ -32,6 +35,7 @@ public class Player : MonoBehaviour
         score = GetComponent<Score>();
         animator = GetComponentInChildren<Animator>();
         playerInput = GetComponent<PlayerInput>();
+        animationChange = GetComponent<AnimationChange>();
         killNumber = 0;
     }
     public void UpdateImage(Sprite sprite)
