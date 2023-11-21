@@ -15,6 +15,6 @@ public class SceneController : SingletonMonoBehavior<SceneController>
     }
     public void StageSelection(LevelSO levelSO)
     {
-        GameResources.Instance.selectedLevelSO = levelSO;
+        GameResources.Instance.currentLevelSO = levelSO;
     }
 }
