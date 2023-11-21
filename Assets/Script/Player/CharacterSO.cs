@@ -11,4 +11,5 @@ public class CharacterSO : ScriptableObject
     public GameObject playerPrefab;
     public float maxMana;
     public Sprite characterSprite;
+    public string idleAnimName;
 }
