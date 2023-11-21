@@ -26,13 +26,18 @@ public class MainMenuUI : SingletonMonoBehavior<MainMenuUI>
         MaxSdk.SetUserId("USER_ID");
         MaxSdk.InitializeSdk();
     }
+
+
     public void UpdatePlayerInfor()
     {
         currentGoldInMainMenu.text = GameResources.Instance.currentGold.ToString();
         currentGoldInShop.text = GameResources.Instance.currentGold.ToString();
-        currentLevel.text = GameResources.Instance.player.characterLevel.currentLevel.ToString();
-        playerName.text = GameResources.Instance.player.characterName.ToString();
-        currentExp.text = GameResources.Instance.player.characterLevel.currentExp.ToString() + "/500";
-        playerImage.sprite = GameResources.Instance.player.characterSprite;
+        currentLevel.text = GameResources.Instance.currentCharacterSO.characterLevel.currentLevel.ToString();
+        playerName.text = GameResources.Instance.currentCharacterSO.characterName.ToString();
+        currentExp.text = GameResources.Instance.currentCharacterSO.characterLevel.currentExp.ToString() + "/" +
+                          GameResources.Instance.currentCharacterSO.characterLevel.GetCurrentExpRequirement().ToString();
+        currentExpSlider.value = GameResources.Instance.currentCharacterSO.characterLevel.currentExp /
+                                 GameResources.Instance.currentCharacterSO.characterLevel.GetCurrentExpRequirement();
+        playerImage.sprite = GameResources.Instance.currentCharacterSO.characterSprite;
     }
 }
