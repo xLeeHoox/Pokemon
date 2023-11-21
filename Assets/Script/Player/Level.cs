@@ -28,13 +28,20 @@ public class Level
                 {
                     currentLevel++;
                     currentExp = 0;
-                    LevelUp();
                 }
             }
         }
     }
-    public void LevelUp()
+    public float GetCurrentExpRequirement()
     {
-
+        List<LevelInfor> levelInfors = GameResources.Instance.levelInfors;
+        foreach (var item in levelInfors)
+        {
+            if (currentLevel == item.level)
+            {
+                return item.expRequirement;
+            }
+        }
+        return 0;
     }
 }
