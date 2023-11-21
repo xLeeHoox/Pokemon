@@ -38,7 +38,7 @@ public class GameResources : MonoBehaviour
             currentGold = PlayerPrefs.GetFloat("currentGold");
             currentLevelSO = levelList[currentLevelIndex - 1];
             currentCharacterSO.idleAnimName = currentIdleAnimName;
-            foreach (var item in pokemonItem.itemInfor)
+            foreach (var item in pokemonItem.itemInfors)
             {
                 if (item.idleAnimName == currentIdleAnimName)
                 {

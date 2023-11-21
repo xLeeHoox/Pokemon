@@ -23,7 +23,7 @@ public class PokemonShop : SingletonMonoBehavior<PokemonShop>
             GameObject newItem = Instantiate(itemSO.itemPrefab);
             newItem.transform.SetParent(pokemonNormalParent,false);
             ItemPokemon itemPokemon = newItem.GetComponent<ItemPokemon>();
-            itemPokemon.itemInfor = itemSO.itemInfor[i];
+            itemPokemon.itemInfor = itemSO.itemInfors[i];
             itemPokemon.price = itemSO.price;
         }
     }
@@ -35,7 +35,7 @@ public class PokemonShop : SingletonMonoBehavior<PokemonShop>
             GameObject newItem = Instantiate(itemSO.itemPrefab);
             newItem.transform.SetParent(pokemonNormalParent);
             ItemPokemon itemPokemon = newItem.GetComponent<ItemPokemon>();
-            itemPokemon.itemInfor = itemSO.itemInfor[i];
+            itemPokemon.itemInfor = itemSO.itemInfors[i];
             itemPokemon.price = itemSO.price;
         }
     }

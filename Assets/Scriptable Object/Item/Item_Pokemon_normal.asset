@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b653dd4ece3f587469a50cabda8a5202, type: 3}
   m_Name: Item_Pokemon_normal
   m_EditorClassIdentifier: 
-  itemInfor:
+  itemInfors:
   - pokemonName: BlackCat
     itemImage: {fileID: -881994817, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
     idleImages:

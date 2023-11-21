@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+
 [System.Serializable]
 public class ItemInfor
 {
@@ -14,7 +16,8 @@ public class ItemInfor
 [CreateAssetMenu(fileName = "Item_", menuName = "Scriptable Object/Item")]
 public class ItemSO : ScriptableObject
 {
-    public ItemInfor[] itemInfor;
+    [FormerlySerializedAs("itemInfor")]
+    public ItemInfor[] itemInfors;
     public float price;
     public ItemType itemType;
     public GameObject itemPrefab;
