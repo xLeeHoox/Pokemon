@@ -19,6 +19,7 @@ public class LevelSO : ScriptableObject
     public int level;
     public Sprite backgroundSprite;
     public float levelDuration;
+    public int maxEnemyNumber;
     public List<SpawnableObjectNumber<EnemySO>> enemyList;
     public List<SpawnableObjectNumber<BuffSO>> buffList;
 }
