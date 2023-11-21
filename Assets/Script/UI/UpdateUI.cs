@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class UpdateUI : SingletonMonoBehavior<UpdateUI>
 {
@@ -23,9 +24,11 @@ public class UpdateUI : SingletonMonoBehavior<UpdateUI>
     [Header("Waiting Panel")]
     [SerializeField] public GameObject WaitingGamePanel;
     [SerializeField] public GameObject winGameText;
-    [SerializeField] public GameObject winGameButton;
+    [SerializeField] public TextMeshProUGUI rankingText;
+    [SerializeField] public TextMeshProUGUI killNumberText;
+    [SerializeField] public GameObject continuosButton;
     [SerializeField] public GameObject loseGameText;
-    [SerializeField] public GameObject loseGameButton;
+    [SerializeField] public GameObject playAgainButton;
     [SerializeField] Image playerImage;
     [Header("Dash button")]
     [SerializeField] Button dashButton;
@@ -73,8 +76,11 @@ public class UpdateUI : SingletonMonoBehavior<UpdateUI>
     {
         mainGamePanel.SetActive(false);
         WaitingGamePanel.SetActive(true);
+        WaitingGamePanel.GetComponent<RectTransform>().DOScale(0, 0).OnComplete(() => WaitingGamePanel.GetComponent<RectTransform>().DOScale(1, 1));
         winGameText.SetActive(true);
-        winGameButton.SetActive(true);
+        rankingText.text = "Ranking: " + (GameManager.Instance.GetRankingOfPlayer() + 1).ToString();
+        killNumberText.text = "Kill: " + Player.killNumber.ToString();
+        continuosButton.SetActive(true);
         UpdateUI.Instance.UpdatePlayerImage();
 
     }
@@ -82,15 +88,16 @@ public class UpdateUI : SingletonMonoBehavior<UpdateUI>
     {
         mainGamePanel.SetActive(false);
         WaitingGamePanel.SetActive(true);
+        WaitingGamePanel.GetComponent<RectTransform>().DOScale(0, 0).OnComplete(() => WaitingGamePanel.GetComponent<RectTransform>().DOScale(1, 1));
         loseGameText.SetActive(true);
-        loseGameButton.SetActive(true);
+        playAgainButton.SetActive(true);
         UpdateUI.Instance.UpdatePlayerImage();
 
 
     }
     public void UpdatePlayerImage()
     {
-        playerImage.sprite = GameResources.Instance.player.characterSprite;
+        playerImage.sprite = GameResources.Instance.currentCharacterSO.characterSprite;
     }
 
 }
