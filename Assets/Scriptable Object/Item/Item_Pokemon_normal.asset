@@ -28,7 +28,7 @@ MonoBehaviour:
     - {fileID: -203207789, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
     - {fileID: 1356508208, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
     idleAnimName: Idle01
-    isUnlock: 1
+    isUnlock: 0
   - pokemonName: GreenCrocodile
     itemImage: {fileID: 1551158495, guid: 2a5ed2730dbefd1429f83940014354ed, type: 3}
     idleImages:
@@ -44,7 +44,7 @@ MonoBehaviour:
     - {fileID: -2144651989, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
     - {fileID: 1330772553, guid: 215c07747fb7ef34585383a24bf1889a, type: 3}
     idleAnimName: Idle02
-    isUnlock: 1
+    isUnlock: 0
   - pokemonName: FireFox
     itemImage: {fileID: 111328514, guid: c2d3cabc9840e894d83b16c979febdd6, type: 3}
     idleImages:

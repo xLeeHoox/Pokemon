@@ -11,32 +11,39 @@ public class PokemonShop : SingletonMonoBehavior<PokemonShop>
     [Header("PetShop")]
     [SerializeField] Transform petNormalParent;
     [SerializeField] public Image previewPet;
+    [Header("TrailShop")]
+    [SerializeField] Transform trailNormalParent;
+    [SerializeField] public Image previewTrail;
     public void Start()
     {
         GeneratePokemonShop();
+        GenerateOtheItemShop(GameResources.Instance.trailItem, trailNormalParent);
+        GenerateOtheItemShop(GameResources.Instance.petItem, petNormalParent);
+
     }
     public void GeneratePokemonShop()
     {
         ItemSO itemSO = GameResources.Instance.pokemonItem;
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < itemSO.itemInfors.Length; i++)
         {
             GameObject newItem = Instantiate(itemSO.itemPrefab);
-            newItem.transform.SetParent(pokemonNormalParent,false);
+            newItem.transform.SetParent(pokemonNormalParent, false);
             ItemPokemon itemPokemon = newItem.GetComponent<ItemPokemon>();
             itemPokemon.itemInfor = itemSO.itemInfors[i];
             itemPokemon.price = itemSO.price;
         }
     }
-    public void GeneratePetShop()
+    public void GenerateOtheItemShop(OtherItemSO otherItemSO, Transform parentTransform)
     {
-        ItemSO itemSO = GameResources.Instance.pokemonItem;
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < otherItemSO.otherItemInfors.Length; i++)
         {
-            GameObject newItem = Instantiate(itemSO.itemPrefab);
-            newItem.transform.SetParent(pokemonNormalParent);
-            ItemPokemon itemPokemon = newItem.GetComponent<ItemPokemon>();
-            itemPokemon.itemInfor = itemSO.itemInfors[i];
-            itemPokemon.price = itemSO.price;
+            GameObject newItem = Instantiate(otherItemSO.itemPrefab);
+            newItem.transform.SetParent(parentTransform, false);
+            ItemOther itemPokemon = newItem.GetComponent<ItemOther>();
+            itemPokemon.otherItemInfor = otherItemSO.otherItemInfors[i];
+            itemPokemon.price = otherItemSO.itemPrice;
+            itemPokemon.itemType = otherItemSO.itemType;
+
         }
     }
 }

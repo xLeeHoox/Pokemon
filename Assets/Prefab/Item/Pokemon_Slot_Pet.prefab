@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 2848945702096120126}
   - component: {fileID: -7451489281862279431}
   m_Layer: 5
-  m_Name: Pokemon_Slot_Trail
+  m_Name: Pokemon_Slot_Pet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

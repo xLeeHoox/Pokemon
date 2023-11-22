@@ -12,4 +12,5 @@ public class CharacterSO : ScriptableObject
     public float maxMana;
     public Sprite characterSprite;
     public string idleAnimName;
+    public Sprite petSprite;
 }

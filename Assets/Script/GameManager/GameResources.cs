@@ -19,6 +19,8 @@ public class GameResources : MonoBehaviour
 
     [SerializeField] public EnemySO enemy;
     [SerializeField] public ItemSO pokemonItem;
+    [SerializeField] public OtherItemSO trailItem;
+    [SerializeField] public OtherItemSO petItem;
     [SerializeField] public List<LevelSO> levelList;
     [SerializeField] public List<GameObject> rewardPrefab;
     [SerializeField] public List<GameObject> scorePrefab;

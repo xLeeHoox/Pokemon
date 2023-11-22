@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad827e29ea244b74082b50f33481a614, type: 3}
+  m_Name: Item_Trails
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemPrefab: {fileID: 2848945702096120124, guid: 200a92c94486433499de97cdea859c02, type: 3}
+  itemPrice: 300
+  otherItemInfors:
+  - itemName: Star trail
+    itemImage: {fileID: 21300000, guid: 5f3a3abe7cf3e9a48bcf04f7c753f98a, type: 3}
+  - itemName: Smoke trail
+    itemImage: {fileID: 21300000, guid: 9fe7964692d73ab489cd84e4b60e2e6e, type: 3}
+  - itemName: Fire trail
+    itemImage: {fileID: 21300000, guid: 1a1f1da53e31b564397d74f2bc3ed8d0, type: 3}
+  - itemName: Lighting trail
+    itemImage: {fileID: 21300000, guid: ae91689beccd018489fb8f397304c01b, type: 3}

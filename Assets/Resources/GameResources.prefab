@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 72f4e34ee0bb746439c74473385c4609, type: 2}
   pokemonItem: {fileID: 11400000, guid: 84a2045702307cb48ab5848b26eec160, type: 2}
+  trailItem: {fileID: 11400000, guid: 68fee52f5682d29408e93d41bc9ddfe3, type: 2}
+  petItem: {fileID: 11400000, guid: c8e2547bd985df74eae542729db42b48, type: 2}
   levelList:
   - {fileID: 11400000, guid: d05db357326d50a4cb9eb581286fa244, type: 2}
   - {fileID: 11400000, guid: adf76220e5c5e36448f2d2144ba0737a, type: 2}

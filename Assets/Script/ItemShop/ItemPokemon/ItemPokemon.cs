@@ -24,9 +24,9 @@ public class ItemPokemon : MonoBehaviour
         pokemonImage.sprite = itemInfor.itemImage;
         pokemonPrice.text = price.ToString();
         buyButton.onClick.AddListener(UnlockItem);
-        previewButton.onClick.AddListener(PreviewItem);
+        previewButton.onClick.AddListener(CallPreviewItem);
         equipButton.onClick.AddListener(EquipImage);
-        equipButton.onClick.AddListener(PreviewItem);
+        equipButton.onClick.AddListener(CallPreviewItem);
         if (itemInfor.isUnlock)
         {
             buyButton.gameObject.SetActive(false);
@@ -45,11 +45,15 @@ public class ItemPokemon : MonoBehaviour
             equipButton.gameObject.SetActive(true);
         }
     }
-    public void PreviewItem()
+    public void CallPreviewItem()
     {
-        PokemonShop.Instance.previewPokemon.transform.localScale = Vector3.zero;
-        PokemonShop.Instance.previewPokemon.transform.DOScale(1, 0.5f);
-        PokemonShop.Instance.previewPokemon.sprite = previewButton.GetComponent<Image>().sprite;
+        PreviewItem(PokemonShop.Instance.previewPokemon);
+    }
+    public void PreviewItem(Image imagePreview)
+    {
+        imagePreview.transform.localScale = Vector3.zero;
+        imagePreview.transform.DOScale(1, 0.5f);
+        imagePreview.sprite = previewButton.GetComponent<Image>().sprite;
     }
     public void EquipImage()
     {
