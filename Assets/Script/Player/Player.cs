@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] Transform collectArea;
     [SerializeField] float collectAreaRadius;
     [SerializeField] public Transform dashEffectParent;
+    [SerializeField] public Transform petParent;
 
     [HideInInspector] public bool isPlayerDead = false; // su dung de xu ly effect luc playerDead
 

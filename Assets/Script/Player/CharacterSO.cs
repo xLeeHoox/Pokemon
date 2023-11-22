@@ -12,7 +12,7 @@ public class CharacterSO : ScriptableObject
     public float maxMana;
     public Sprite characterSprite;
     public string idleAnimName;
-    public GameObject petImage;
+    public GameObject petPrefab;
     public GameObject traiPrefab;
 
 }

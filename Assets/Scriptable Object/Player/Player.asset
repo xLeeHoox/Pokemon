@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3e1e873d3fbc7c42b4a46e4d2e8d863, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  characterName: LeeHoo
+  characterName: BlackCat
   characterLevel:
-    currentLevel: 2
-    currentExp: 200
+    currentLevel: 4
+    currentExp: 0
   startMoveSpeed: 5
   startPower: 150
   playerPrefab: {fileID: 354703512032262659, guid: dcbb752729298a541b535f4e57ffd513, type: 3}
   maxMana: 5
   characterSprite: {fileID: -881994817, guid: d0cbba5d6526fac4c900bd47f87373db, type: 3}
   idleAnimName: Idle01
+  petImage: {fileID: 0}
+  traiPrefab: {fileID: 5536495354962901082, guid: 263653dd11cb4c2458a9abe68377f4b4, type: 3}

@@ -67,6 +67,14 @@ public class ItemOther : MonoBehaviour
     }
     public void EquipItem()
     {
-        GameResources.Instance.currentCharacterSO.traiPrefab = otherItemInfor.prefab;
+
+        if (itemType==ItemType.Trail)
+        {
+            GameResources.Instance.currentCharacterSO.traiPrefab = otherItemInfor.prefab; 
+        }
+        if (itemType == ItemType.Pet)
+        {
+            GameResources.Instance.currentCharacterSO.petPrefab = otherItemInfor.prefab;
+        }
     }
 }

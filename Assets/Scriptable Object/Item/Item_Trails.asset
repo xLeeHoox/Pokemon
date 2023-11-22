@@ -18,9 +18,17 @@ MonoBehaviour:
   otherItemInfors:
   - itemName: Star trail
     itemImage: {fileID: 21300000, guid: 5f3a3abe7cf3e9a48bcf04f7c753f98a, type: 3}
+    isUnlock: 1
+    prefab: {fileID: 4682482435688998202, guid: 4317b785125f65c4cb2383f8d76f716a, type: 3}
   - itemName: Smoke trail
     itemImage: {fileID: 21300000, guid: 9fe7964692d73ab489cd84e4b60e2e6e, type: 3}
+    isUnlock: 1
+    prefab: {fileID: 1015570077491334633, guid: c9d24e38a9283af4cac7d9a48b19e23a, type: 3}
   - itemName: Fire trail
     itemImage: {fileID: 21300000, guid: 1a1f1da53e31b564397d74f2bc3ed8d0, type: 3}
+    isUnlock: 1
+    prefab: {fileID: 1808492323829580098, guid: b685a93f5f6573a469e1c0851839f7db, type: 3}
   - itemName: Lighting trail
     itemImage: {fileID: 21300000, guid: ae91689beccd018489fb8f397304c01b, type: 3}
+    isUnlock: 1
+    prefab: {fileID: 5536495354962901082, guid: 263653dd11cb4c2458a9abe68377f4b4, type: 3}

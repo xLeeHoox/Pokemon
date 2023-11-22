@@ -82,6 +82,8 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         newPlayer.gameObject.name = player.playerSO.characterName;
         GameObject newTrail = Instantiate(characterSO.traiPrefab, player.transform.position, Quaternion.identity);
         newTrail.transform.SetParent(player.dashEffectParent, false);
+        GameObject newPet = Instantiate(characterSO.petPrefab, player.petParent.position, Quaternion.identity);
+        newPet.transform.SetParent(player.petParent, false);
         player.UpdateImage(player.playerSO.characterSprite);
         player.animator.CrossFadeInFixedTime(GameResources.Instance.currentCharacterSO.idleAnimName, 0.25f, -1, 0f);
         rankingList.Add(player.score);
