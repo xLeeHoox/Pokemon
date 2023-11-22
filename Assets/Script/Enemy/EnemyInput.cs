@@ -16,6 +16,7 @@ public class EnemyInput : MonoBehaviour
         enemy = GetComponent<Enemy>();
         enemyDash = GetComponent<EnemyDash>();
         moveByVelocity = enemy.moveByVelocity;
+        direction = Quaternion.AngleAxis(Random.Range(0, 360), Vector3.forward) * Vector3.right.normalized;
     }
 
     public void Update()
