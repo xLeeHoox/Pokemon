@@ -80,6 +80,8 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         GameObject newPlayer = Instantiate(characterSO.playerPrefab, Vector3.zero, Quaternion.identity);
         player = newPlayer.GetComponent<Player>();
         newPlayer.gameObject.name = player.playerSO.characterName;
+        GameObject newTrail = Instantiate(characterSO.traiPrefab, player.transform.position, Quaternion.identity);
+        newTrail.transform.SetParent(player.dashEffectParent, false);
         player.UpdateImage(player.playerSO.characterSprite);
         player.animator.CrossFadeInFixedTime(GameResources.Instance.currentCharacterSO.idleAnimName, 0.25f, -1, 0f);
         rankingList.Add(player.score);

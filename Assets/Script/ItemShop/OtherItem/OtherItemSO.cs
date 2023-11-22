@@ -7,6 +7,7 @@ public class OtherItemInfor
     public string itemName;
     public Sprite itemImage;
     public bool isUnlock;
+    public GameObject prefab;
 }
 [CreateAssetMenu(fileName = "Item_", menuName = "Scriptable Object/Other Item")]
 public class OtherItemSO : ScriptableObject

@@ -164,6 +164,7 @@ MonoBehaviour:
   playerImage: {fileID: 354703513901556685}
   collectArea: {fileID: 6812357555529549074}
   collectAreaRadius: 6
+  dashEffectParent: {fileID: 706818770543705993}
   isPlayerDead: 0
 --- !u!114 &5614402911133502063
 MonoBehaviour:

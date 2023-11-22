@@ -67,6 +67,6 @@ public class ItemOther : MonoBehaviour
     }
     public void EquipItem()
     {
-        Debug.Log("Use Item");
+        GameResources.Instance.currentCharacterSO.traiPrefab = otherItemInfor.prefab;
     }
 }

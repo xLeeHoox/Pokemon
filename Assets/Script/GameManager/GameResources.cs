@@ -25,6 +25,8 @@ public class GameResources : MonoBehaviour
     [SerializeField] public List<GameObject> rewardPrefab;
     [SerializeField] public List<GameObject> scorePrefab;
     [SerializeField] public List<LevelInfor> levelInfors;
+    [SerializeField] public List<GameObject> petImagePrefab;
+    [SerializeField] public List<GameObject> trailPrefab;
     [SerializeField] public GameObject bloodEffect;
     [SerializeField] public CharacterSO currentCharacterSO;
     public LevelSO currentLevelSO;
